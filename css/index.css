@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
+.banner {
+    background-image: url('../img/header-flowers.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+}
+
+.title-of-header{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    border: 2px solid black;
+    padding: 20px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2em;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.one-nav {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.one-nav:hover{
+    cursor: pointer;
+}
+.one-nav-first{
+     background-color: rgba(72, 209, 204, 0.5);
+}
+
+.one-nav-first:hover{
+     background-color: rgba(72, 209, 204, 0.8);
+}
+.one-nav-second{
+     background-color: rgba(255, 20, 147, 0.5);
+}
+.one-nav-second:hover{
+     background-color: rgba(255, 20, 147, 0.8);
+}
+.one-nav-third{
+     background-color: rgba(0, 255, 127, 0.5);
+}
+.one-nav-third:hover{
+     background-color: rgba(0, 255, 127, 0.8);
+}
+.one-nav-fours{
+     background-color: rgba(171, 226, 6, 0.5);
+}
+.one-nav-fours:hover{
+     background-color: rgba(171, 226, 6, 0.8);
+}
+
+.title-of-nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+.text-of-nav {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: row;
+}
+.title-welcome-section{
+    
+}
+.text-welcome-section{
+    
+}
+.image-welcome-section{
+    display: flex;
+    justify-content: end;
+}
+.image-welcome-section img{
+    width: 500px;
+    height: auto;
+}
