@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=MedievalSharp|Medula+One');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan|MedievalSharp|Medula+One');
 
 header{
     margin:0;
@@ -135,7 +135,6 @@ padding-right: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .flower-card img{
     width: 70%;
@@ -157,4 +156,57 @@ padding-right: 3%;
 .flower-card-button:hover{
     border: 2px solid rgb(122, 163, 163);
     cursor: pointer;
+}
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 50%;
+  height: auto;
+  z-index: -1;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-card {
+    margin: 15px;
+    padding: 5px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(244, 194, 252)
+;
+    background-color: rgb(249, 214, 255);
+
+}
+.blog-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.blog-card-text{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+}
+.version-two{
+    background-color: rgb(222, 252, 194);
+}
+.contact{
+    width: 100%;
+    background-color: rgba(45, 76, 71, 0.7);
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.contact img {
+   width: 30px;
+   height: 30px;
+   padding: 2%;
 }
