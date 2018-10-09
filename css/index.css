@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Kodchasan|MedievalSharp|Medula+One');
 
-header{
+body{
     margin:0;
     padding:0;
+    max-width: 1400px;
+}
+header {
+    max-width: 1400px;
 }
 .banner {
     background-image: url('../img/header-flowers.jpg');
@@ -124,17 +128,35 @@ padding-right: 3%;
 }
 
 .flowers-price-section{
-    background-color: rgba(217, 224, 224,0.8);
+    background-image: url('../img/div-background.jpg');
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
+@media (max-width: 800px) {
+    .flowers-price-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .flowers-price-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 400px){
+    .flowers-price-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .flower-card{
     margin: 15px;
     padding: 5px; 
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .flower-card img{
     width: 70%;
@@ -148,9 +170,9 @@ padding-right: 3%;
 }
 
 .flower-card-button{
-    width: 30%;
-    border-radius: 10%;
-    height: 7%;
+    width:150px;
+    height:30px;
+    
 }
 
 .flower-card-button:hover{
@@ -171,6 +193,12 @@ padding-right: 3%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+@media (max-width: 800px) {
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 .blog-card {
     margin: 15px;
@@ -179,9 +207,7 @@ padding-right: 3%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid rgb(244, 194, 252)
-;
-    background-color: rgb(249, 214, 255);
+    border: 2px solid rgb(244, 194, 252);
 
 }
 .blog-card img {
@@ -189,7 +215,19 @@ padding-right: 3%;
     height: 200px;
     border-radius: 50%;
 }
+@media (max-width: 800px) {
+    .blog-card img {
+        width: 150px;
+        height: 150px;
+    }
+}
 
+@media (max-width: 500px) {
+    .blog-card img {
+        width: 100px;
+        height: 100px;
+    }
+}
 .blog-card-text{
     padding: 10px;
     text-align: center;
@@ -209,4 +247,24 @@ padding-right: 3%;
    width: 30px;
    height: 30px;
    padding: 2%;
+}
+
+.fixed-nav {
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(66, 134, 244, 0.9);
+}
+.nav-contact {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-contact > p{
+    padding: 0 20px 0 20px;
+    font-family: 'MedievalSharp', cursive;
+}
+.nav-contact p:hover {
+    background-color: rgb(37, 101, 206);
+    border:1px solid;
 }
