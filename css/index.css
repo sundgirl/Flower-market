@@ -198,6 +198,12 @@ padding-right: 3%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .one-nav-fours {
+        display: none;
+    }
+    .one-nav-third {
+        display: none;
+    }
 }
 
 .blog-card {
@@ -244,9 +250,9 @@ padding-right: 3%;
     justify-content:space-around;
 }
 .contact img {
-   width: 30px;
-   height: 30px;
-   padding: 2%;
+   width: 25px;
+   height: 25px;
+   padding: 10px;
 }
 
 .fixed-nav {
@@ -267,4 +273,24 @@ padding-right: 3%;
 .nav-contact p:hover {
     background-color: rgb(37, 101, 206);
     border:1px solid;
+    cursor: pointer;
+}
+.modal-contact-form{
+    position: fixed;
+    top: 100px;
+    right: 400px;
+    left:400px;
+    height: 400px;
+    width: 500px;
+    z-index: 999;
+    background-color: rgb(66, 134, 300);
+    display:none;
+}
+.contact-form{
+    text-align: center;
+    padding: 10px;
+}
+.contact-form input{
+    padding: 10px;
+    margin: 5px;
 }
