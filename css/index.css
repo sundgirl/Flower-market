@@ -5,9 +5,7 @@ body{
     padding:0;
     max-width: 1400px;
 }
-header {
-    max-width: 1400px;
-}
+
 .banner {
     background-image: url('../img/header-flowers.jpg');
     background-size: cover;
@@ -143,6 +141,9 @@ padding-right: 3%;
 @media (max-width: 600px){
     .flowers-price-section{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .image-welcome-section{
+        display: none;
     }
 }
 @media (max-width: 400px){
