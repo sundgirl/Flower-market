@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kodchasan|MedievalSharp|Medula+One');
 
-body{
-    margin:0;
-    padding:0;
-    max-width: 1400px;
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1366px;
 }
 
 .banner {
@@ -13,7 +13,7 @@ body{
     padding: 70px;
 }
 
-.title-of-header{
+.title-of-header {
     display: flex;
     justify-content: center;
 }
@@ -25,7 +25,7 @@ h1 {
     font-size: 2em;
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -40,40 +40,40 @@ h1 {
     margin: 2%;
 }
 
-.one-nav:hover{
+.one-nav:hover {
     cursor: pointer;
 }
 
-.one-nav-first{
-     background-color: rgba(72, 209, 204, 0.5);
+.one-nav-first {
+    background-color: rgba(72, 209, 204, 0.5);
 }
 
-.one-nav-first:hover{
-     background-color: rgba(72, 209, 204, 0.8);
+.one-nav-first:hover {
+    background-color: rgba(72, 209, 204, 0.8);
 }
 
-.one-nav-second{
-     background-color: rgba(255, 20, 147, 0.5);
+.one-nav-second {
+    background-color: rgba(255, 20, 147, 0.5);
 }
 
-.one-nav-second:hover{
-     background-color: rgba(255, 20, 147, 0.8);
+.one-nav-second:hover {
+    background-color: rgba(255, 20, 147, 0.8);
 }
 
-.one-nav-third{
-     background-color: rgba(0, 255, 127, 0.5);
+.one-nav-third {
+    background-color: rgba(0, 255, 127, 0.5);
 }
 
-.one-nav-third:hover{
-     background-color: rgba(0, 255, 127, 0.8);
+.one-nav-third:hover {
+    background-color: rgba(0, 255, 127, 0.8);
 }
 
-.one-nav-fours{
-     background-color: rgba(171, 226, 6, 0.5);
+.one-nav-fours {
+    background-color: rgba(171, 226, 6, 0.5);
 }
 
-.one-nav-fours:hover{
-     background-color: rgba(171, 226, 6, 0.8);
+.one-nav-fours:hover {
+    background-color: rgba(171, 226, 6, 0.8);
 }
 
 .title-of-nav {
@@ -103,29 +103,29 @@ h1 {
     justify-content: center;
 }
 
-.title-welcome-section{
+.title-welcome-section {
     display: flex;
     justify-content: center;
     font-family: 'Medula One', cursive;
     font-size: 2em;
 }
 
-.text-welcome-section{
+.text-welcome-section {
     text-align: center;
     font-family: cursive;
     color: black;
     padding: 30px;
 }
 
-.image-welcome-section{
-padding-right: 3%;
+.image-welcome-section {
+    padding-right: 3%;
 }
 
 #img-size {
     width: 100%;
 }
 
-.flowers-price-section{
+.flowers-price-section {
     background-image: url('../img/div-background.jpg');
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -138,62 +138,68 @@ padding-right: 3%;
     }
 }
 
-@media (max-width: 600px){
-    .flowers-price-section{
+@media (max-width: 600px) {
+    .flowers-price-section {
         grid-template-columns: repeat(2, 1fr);
     }
-    .image-welcome-section{
+    .image-welcome-section {
         display: none;
     }
 }
-@media (max-width: 400px){
-    .flowers-price-section{
+
+@media (max-width: 400px) {
+    .flowers-price-section {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-.flower-card{
+
+.flower-card {
     margin: 15px;
-    padding: 5px; 
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
-.flower-card img{
+
+.flower-card img {
     width: 70%;
     border-radius: 50%;
 }
 
 
-.flower-card-name{
+.flower-card-name {
     font-family: 'Medula One', cursive;
     font-size: 2em;
 }
 
-.flower-card-button{
-    width:150px;
-    height:30px;
-    
+.flower-card-button {
+    width: 150px;
+    height: 30px;
+
 }
 
-.flower-card-button:hover{
+.flower-card-button:hover {
     border: 2px solid rgb(122, 163, 163);
     cursor: pointer;
 }
+
 .bgvideo {
-  position: fixed;
-  right: 0;
-  bottom:0;
-  min-width: 100%;
-  min-height: 100%;
-  width: 50%;
-  height: auto;
-  z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 50%;
+    height: auto;
+    z-index: -1;
 }
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 @media (max-width: 800px) {
     .blog-grid {
         display: grid;
@@ -209,7 +215,7 @@ padding-right: 3%;
 
 .blog-card {
     margin: 15px;
-    padding: 5px; 
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -217,11 +223,13 @@ padding-right: 3%;
     border: 2px solid rgb(244, 194, 252);
 
 }
+
 .blog-card img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
+
 @media (max-width: 800px) {
     .blog-card img {
         width: 150px;
@@ -235,63 +243,243 @@ padding-right: 3%;
         height: 100px;
     }
 }
-.blog-card-text{
+
+.blog-card-text {
     padding: 10px;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
 }
-.version-two{
+
+.version-two {
     background-color: rgb(222, 252, 194);
 }
-.contact{
+
+.contact {
     width: 100%;
     background-color: rgba(45, 76, 71, 0.7);
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
 .contact img {
-   width: 25px;
-   height: 25px;
-   padding: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
 }
 
 .fixed-nav {
     width: 100%;
-    height: 35px;
+    height: 26px;
     position: fixed;
     top: 0px;
     background-color: rgba(66, 134, 244, 0.9);
 }
+
 .nav-contact {
     display: flex;
     justify-content: flex-end;
 }
-.nav-contact > p{
+
+.nav-contact>button {
     padding: 0 20px 0 20px;
     font-family: 'MedievalSharp', cursive;
+     background-color: rgb(0, 67, 175);
 }
-.nav-contact p:hover {
+
+.nav-contact button:hover {
     background-color: rgb(37, 101, 206);
-    border:1px solid;
     cursor: pointer;
 }
-.modal-contact-form{
-    position: fixed;
-    top: 100px;
-    right: 400px;
-    left:400px;
-    height: 400px;
-    width: 500px;
-    z-index: 999;
-    background-color: rgb(66, 134, 300);
-    display:none;
+
+.btn-send {
+    background-color: rgb(4, 54, 135);
 }
-.contact-form{
-    text-align: center;
-    padding: 10px;
+
+.modal-body-css{
+    background-color: rgb(244, 244, 244);
 }
-.contact-form input{
-    padding: 10px;
-    margin: 5px;
+.modal-header-css, .modal-footer-css {
+    background-color: rgb(234, 234, 234);
+}
+
+.modal-dialog-css{
+    width: 300px;
+}
+
+.navbar{
+ display: none;   
+}
+
+.animated-icon1, .animated-icon3, .animated-icon4 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span, .animated-icon3 span, .animated-icon4 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+    background: #e65100;
+}
+
+.animated-icon3 span {
+    background: #e3f2fd;
+}
+
+.animated-icon4 span {
+    background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* Icon 3*/
+
+.animated-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon3 span:nth-child(2), .animated-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon3.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon3.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+/* Icon 4 */
+
+.animated-icon4 span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon4 span:nth-child(2) {
+  top: 10px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon4 span:nth-child(3) {
+  top: 20px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon4.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+
+.animated-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.animated-icon4.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 21px;
+  left: 8px;
+}
+@media (max-width: 600px) {
+    .navbar{
+        display: block;
+    }
 }

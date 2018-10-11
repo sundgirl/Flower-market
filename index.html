@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
     <title>Flowers market</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-dark  indigo darken-2">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="">Navbar</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22"
+        aria-expanded="false" aria-label="Toggle navigation"><div class="animated-icon4"><span></span><span></span><span></span></div></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
     <header>
         <section class="fixed-nav">
             <div class="nav-contact">
-                <p class="contact-nav">Contact us</p>
-                <p class="sign-in-nav">Sign in</p>
-            </div>
-            <div class="modal-contact-form">
-                <form class="contact-form">
-                    <label>
-                        <input type="text" name="name">
-                    </label>
-                    <br>
-                    <label>
-                        <input type="text" name="email">
-                    </label>
-                    <br>
-                    <label>
-                        <input type="text" name="comment">
-                    </label>
-                    <br>
-                    <button name="button-submit">Submit</button>
-                </form>
+                <button class="btn btn-primary btn-contact" data-toggle="modal" data-target="#contact-modal" data-whatever="Diana">Contact us</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#sign-in-modal" data-whatever="Diana">Sign in</button>
             </div>
         </section>
         <section class="banner">
             <div class="title-of-header">
                 <h1>Flowers</h1>
             </div>
-            
+
             <nav class="header-nav">
                 <div class="one-nav one-nav-first">
                     <div class="title-of-nav">
@@ -76,139 +92,200 @@
     <main>
         <section class="welcome-section">
             <div class="welcome-text">
-            <div class="title-welcome-section">
-                <p>Welcome to our Store!</p>
-            </div>
-            <div class="text-welcome-section">
-                <p>We offer a low price on all bouquets and flowers that are presented in our range. At the same time, the quality of our flower masterpieces or the speed and responsibility of delivering flowers in Lviv does not suffer at all. Everyone who makes an order in our flower shop in Lviv is guaranteed to receive a bouquet of the highest quality and a guarantee of freshness from the Flower Market. Order, please your loved ones!</p>
-            </div>
+                <div class="title-welcome-section">
+                    <p>Welcome to our Store!</p>
+                </div>
+                <div class="text-welcome-section">
+                    <p>We offer a low price on all bouquets and flowers that are presented in our range. At the same time, the quality of our flower masterpieces or the speed and responsibility of delivering flowers in Lviv does not suffer at all. Everyone
+                        who makes an order in our flower shop in Lviv is guaranteed to receive a bouquet of the highest quality and a guarantee of freshness from the Flower Market. Order, please your loved ones!</p>
+                </div>
             </div>
             <div class="image-welcome-section">
                 <img id="img-size" src="img/colors-flowers.png" alt="colors-flowers">
             </div>
         </section>
         <section class="flowers-price-section">
-            
             <article class="flower-card">
                 <img src="img/red-roses.jpg" alt="Red Roses">
                 <p class="flower-card-name">RED ROSES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/white-roses.jpg" alt="White Roses">
                 <p class="flower-card-name">WHITE ROSES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/pink-roses.png" alt="Pink Roses">
                 <p class="flower-card-name">PINK ROSES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/blue-roses.jpg" alt="Blue Roses">
                 <p class="flower-card-name">BLUE ROSES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/red-tulips.jpg" alt="Red Tulips">
                 <p class="flower-card-name">RED TULIPS</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/colors-tulips.jpg" alt="Colors Tulips">
                 <p class="flower-card-name">COLORS TULIPS</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/white-tulips.jpg" alt="White Tulips">
                 <p class="flower-card-name">WHITE TULIPS</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/different-tulips.jpg" alt="Different Tulips">
                 <p class="flower-card-name">DIFFERENT TULIPS</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
         </section>
         <section class="blog-grid">
             <article class="blog-card">
-                    <img src="img/person-ira.jpg">
+                <img src="img/person-ira.jpg">
                 <div class="blog-card-text">
                     <p>"Brought even better than the picture !! Thank you so much for such a stunning bouquet in a hat box. Now I think about ordering a bouquet for my mother's holiday."</p>
                 </div>
             </article>
             <article class="blog-card">
-                    <img src="img/person-vlad.jpg">
+                <img src="img/person-vlad.jpg">
                 <div class="blog-card-text">
                     <p>"Thank you very much for the beautiful bouquets on March 8 and the prompt solution of the problem! you are the best, as are your beautiful bouquets! Thanks again!"</p>
                 </div>
             </article>
             <article class="blog-card">
-                    <img src="img/person-katya.jpg">
+                <img src="img/person-katya.jpg">
                 <div class="blog-card-text">
                     <p>"Sensual, gentle, with a very unusual and unusual selection of flowers. The bouquet said more about our feelings and about herself than words.Accept our admiration for your work and your ability to create a message without words."</p>
                 </div>
             </article>
             <article class="blog-card">
-                    <img src="img/person-luba.jpeg">
+                <img src="img/person-luba.jpeg">
                 <div class="blog-card-text">
-                    <p>"Beautiful, original and very spectacular flower arrangements decorated in bright, lush and unusual bouquets, suitable for any celebration, event, and for every taste, both for women and men. Very pleased with your wide selection. I will definitely buy from you, amaze loved ones and offer to friends and acquaintances."</p>
+                    <p>"Beautiful, original and very spectacular flower arrangements decorated in bright, lush and unusual bouquets, suitable for any celebration, event, and for every taste, both for women and men. Very pleased with your wide selection.
+                        I will definitely buy from you, amaze loved ones and offer to friends and acquaintances."</p>
                 </div>
             </article>
         </section>
         <section class="flowers-price-section version-two">
-            
+
             <article class="flower-card">
                 <img src="img/colors-daises.jpg" alt="Colors Daises">
                 <p class="flower-card-name">COLORS DAISIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/pink-daises.jpg" alt="Pink Daises">
                 <p class="flower-card-name">PINK DAISIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/red-daises.jpg" alt="Red Daises">
                 <p class="flower-card-name">RED DAISIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/white-daises.jpg" alt="White Daises">
                 <p class="flower-card-name">WHITE DAISIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/green-lilies.jpg" alt="Green Lilies">
                 <p class="flower-card-name">GREEN LILIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/pink-lilies.jpg" alt="Pink Lilies">
                 <p class="flower-card-name">PINK LILIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/red-lilies.jpg" alt="Red Lilies">
                 <p class="flower-card-name">RED LILIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
             <article class="flower-card">
                 <img src="img/white-lilies.jpg" alt="White Lilies">
                 <p class="flower-card-name">WHITE LILIES</p>
-                <input class="flower-card-button" type="button" name="buy" value="Buy me"/>
+                <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article>
         </section>
     </main>
     <footer>
         <div class="contact">
-        <img src="img/facebook.png" alt="facebook">
-        <img src="img/instagram.png" alt="instagram">
-        <img src="img/google.png" alt="google">
-        <img src="img/youtube.png" alt="youtube">
-        <img src="img/viber.png" alt="viber">
+            <img src="img/facebook.png" alt="facebook">
+            <img src="img/instagram.png" alt="instagram">
+            <img src="img/google.png" alt="google">
+            <img src="img/youtube.png" alt="youtube">
+            <img src="img/viber.png" alt="viber">
         </div>
     </footer>
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header modal-header-css">
+                    <h5 class="modal-title" id="contact-modalLabel">Contact form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-body-css">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">From:</label>
+                            <input type="email" class="form-control" id="recipient-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Your message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer modal-footer-css">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-send">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-labelledby="sign-in-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-css" role="document">
+            <div class="modal-content">
+                <div class="modal-header modal-header-css">
+                    <h5 class="modal-title" id="sign-in-modalLabel">Sign in</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-body-css">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Login</label>
+                            <input type="text" class="form-control" id="recipient-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" id="message-text">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer modal-footer-css">
+                    <button type="button" class="btn btn-primary btn-send">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
