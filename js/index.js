@@ -8,26 +8,14 @@ $('#exampleModal').on('show.bs.modal', function (event) {
   modal.find('.modal-body input').val(recipient)
 })
 
-$(document).ready(function () {
-  $('.animated-icon1,.animated-icon3,.animated-icon4').click(function () {
-    $(this).toggleClass('open');
-  });
-});
+document.querySelector('.flower-card').addEventListener('mouseover', hoverImgOver);
+function hoverImgOver(){
+  document.querySelector('.flower-card').style.backgroundColor="rgba(229, 229, 229, 0.7)";
+  document.querySelector('.flower-card').style.cursor="pointer";
+}
 
-// Works everywhere
-$(document).ready(function () {
-
-  // Hide/show animation hamburger function
-  $('.navbar-toggler').on('click', function () {
-
-    // Take this line to first hamburger animations
-    $('.animated-icon1').toggleClass('open');
-
-    // Take this line to second hamburger animation
-    $('.animated-icon3').toggleClass('open');
-
-    // Take this line to third hamburger animation
-    $('.animated-icon4').toggleClass('open');
-  });
-
-});
+document.querySelector('.flower-card').addEventListener('mouseout', hoverImgOut);
+function hoverImgOut(){
+  document.querySelector('.flower-card').style.backgroundColor="transparent";
+  document.querySelector('.flower-card').style.cursor="default";
+}
