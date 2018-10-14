@@ -1,3 +1,6 @@
+const cart = new Cart($('#cartModal'));
+const productList = new ProductList('products.json', $('.products-container'), cart);
+
 $('#exampleModal').on('show.bs.modal', function (event) {
   const button = $(event.relatedTarget) // Button that triggered the modal
   const recipient = button.data('whatever') // Extract info from data-* attributes
@@ -19,3 +22,4 @@ function hoverImgOut(){
   document.querySelector('.flower-card').style.backgroundColor="transparent";
   document.querySelector('.flower-card').style.cursor="default";
 }
+

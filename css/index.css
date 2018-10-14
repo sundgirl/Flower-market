@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Kodchasan|MedievalSharp|Medula+One');
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     max-width: 1366px;
 }
 
@@ -127,20 +127,19 @@ h1 {
 
 .flowers-price-section {
     background-image: url('../img/div-background.jpg');
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    
 }
 
 @media (max-width: 800px) {
     .flowers-price-section {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        
     }
 }
 
 @media (max-width: 600px) {
     .flowers-price-section {
-        grid-template-columns: repeat(2, 1fr);
+        
     }
     .image-welcome-section {
         display: none;
@@ -275,11 +274,13 @@ h1 {
 }
 
 .fixed-nav {
+    max-width: 1366px;
     width: 100%;
     height: 26px;
     position: fixed;
     top: 0px;
     background-color: rgba(66, 134, 244, 0.9);
+    z-index: 9999;
 }
 
 .nav-contact {
@@ -313,3 +314,56 @@ h1 {
     width: 300px;
 }
 
+.price {
+  display: none;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 300px;
+  text-align: center;
+  color: #fff;
+  animation: fade .5s linear forwards;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flower-card  img:hover .price{
+display: block;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.style-card{
+    background-color: transparent;
+    border:none;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.style-card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: rgba(21, 1, 164, 0.13);
+}
+.badge {
+    border-radius:.50rem;
+}
+.nav-link{
+ padding: 0 1rem;   
+}
+a {
+    color:rgb(0, 51, 135);
+}

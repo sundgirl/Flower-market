@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "title": "Red Roses",
+        "image": "red-roses.jpg",
+        "description": " A red rose is an unmistakable expression of love. Red roses convey deep emotions - be it love, longing or desire. Red Roses can also be used to convey respect, admiration or devotion. A deep red rose can be used to convey heartfelt regret and sorrow. The number of red roses has special romantic meanings associated with them. 12 red roses is the most popular of all which conveys 'Be mine' and 'I love you'",
+        "price": 5.00
+    },
+    {
+        "id": "2",
+        "title": "White Roses",
+        "image": "white-roses.jpg",
+        "description": " White is the color of purity, chastity and innocence. White flowers are generally associated with new beginnings and make an ideal accompaniment to a first-time bride walking down the aisle. White flowers can be used to convey sympathy or humility. They also are indicative of spirituality. Hence, white roses also follow suit.",
+        "price": 5.00
+    },
+    {
+        "id": "3",
+        "title": "Pink Roses",
+        "image": "pink-roses.png",
+        "description": "There are a lot of variations of the pink rose. Over all, pink roses are used to convey gentle emotions such as admiration, joy and gratitude. Light pink rose blooms are indicative of sweetness and innocence. Deep pink rose blooms convey deep gratitude and appreciation. Pink roses also connote elegance and grace.",
+        "price": 6.00
+    },
+    {
+        "id": "4",
+        "title": "Blue Roses",
+        "image": "blue-roses.jpg",
+        "description": "A perfectly blue rose is still elusive like the perfectly black rose. Blue roses cannot be achieved naturally so they represent the unattainable or the mysterious. Blue roses therefore embody the desire for the unattainable. They say 'I can't have you but I can't stop thinking about you'",
+        "price": 10.50
+    },
+    {
+        "id": "5",
+        "title": "Mixed Tulips",
+        "image": "colors-tulips.jpg",
+        "description": "Fringed Tulip Bulbs Mix is a collection of yellow, pinks, lavender, and peach colored flowers. Each variety has its own crystal like fringe on the edges of every petal. Plant this mix in pots for a colorful addition to patios, or in a sunny garden for a burst of color in mid-spring.",
+        "price": 8.50
+    },
+    {
+        "id": "6",
+        "title": "Red Tulips",
+        "image": "red-tulips.jpg",
+        "description": "In general, the color red in flowers is usually associated with love so it also follows that the red tulip would mean eternal love, perfect love, true love, undying love and more.",
+        "price": 4.00
+    },
+    {
+        "id": "7",
+        "title": "Different Tulips",
+        "image": "different-tulips.jpg",
+        "description": "Fringed Tulip Bulbs Mix is a collection of yellow, pinks, lavender, and peach colored flowers. Each variety has its own crystal like fringe on the edges of every petal. Plant this mix in pots for a colorful addition to patios, or in a sunny garden for a burst of color in mid-spring. ",
+        "price": 9.50
+    },
+    {
+        "id": "8",
+        "title": "White Tulips",
+        "image": "white-tulips.jpg",
+        "description": "These exquisite almost pure white tulip flowers make an unforgetable show, especially at dawn and dusk, lighting up the garden with their serene beauty.",
+        "price": 5.00
+    }
+]
