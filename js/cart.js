@@ -31,21 +31,25 @@ class Cart {
         let cartDomSting = 
             `<div class="container">
                 <div class="row">
-                    <div class="col-5"><strong>Product</strong></div>
-                    <div class="col-3"><strong>Price</strong></div>
+                    <div class="col-6"><strong>Product</strong></div>
+                    <div class="col-2"><strong>Price</strong></div>
                     <div class="col-2"><strong>Quantity</strong></div>
                 </div>`;
         for (const id in this.cart) {
             const product = productList.getProductById(id);
             total += product.price * this.cart[id];
             cartDomSting += 
-                `<div class="row" data-id="${id}"> 
-                    <div class="col-4">${product.title}</div>
-                    <div class="col-3">${product.price}</div>
+                `<div class="row border-bottom-line" data-id="${id}"> 
+                    <div class="col-2">${product.title}</div>
+                    <div class="col-4"><img class="card-img-top style-cart-img data-toggle="modal"
+                        data-target="#cardModalCenter" data-id="${product.id}"" src="img/${product.image}" 
+                        alt="${product.title}"></div>
+                    <div class="col-2">${product.price}</div>
                     <div class="col-2">${this.cart[id]}</div>
                     <div class="col-1"><button class="btn btn-sm plus">+</button></div>
                     <div class="col-1"><button class="btn btn-sm minus">-</button></div>
-                    <div class="col-1"><button class="btn btn-sm delete">x</button></div>
+                    
+                    
                 </div>`;
         }
         total = total.toFixed(2);

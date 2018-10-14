@@ -54,5 +54,33 @@
         "image": "white-tulips.jpg",
         "description": "These exquisite almost pure white tulip flowers make an unforgetable show, especially at dawn and dusk, lighting up the garden with their serene beauty.",
         "price": 5.00
+    },
+    {
+        "id": "9",
+        "title": "Mixed Daises",
+        "image": "colors-daises.jpg",
+        "description": "A Daisy is a perennial whose evergreen leaves form a basal tuft or a rosette. Daisy flower plant has a prostrate fashion or a growing habit of spreading. Daisies can be propagated by division in spring or through sowing seeds in spring or late autumn.",
+        "price": 7.40
+    },
+    {
+        "id": "10",
+        "title": "Color Daises",
+        "image": "red-daises.jpg",
+        "description": "Before planting, add generous amounts of manure and compost so that the soil becomes rich and well drained. If Daisies are planted in an area which is too hot, they should be shaded and watered regularly. Set the plants about 9 to 12 inches apart. Water the plants regularly during dry periods.",
+        "price": 7.00
+    },
+    {
+        "id": "11",
+        "title": "White Daises",
+        "image": "white-daises.jpg",
+        "description": "Generally Daisies are not bothered by insects and disease.If bothered by insects and disease, treat Daisies with an insecticidal soap or a fungicide.Just before blooming, use a fertilizer high in phosphorous as it helps to promote big, bright blooms.In cold weather regions, provide a thick layer of mulch for winter protection.",
+        "price": 8.00
+    },
+    {
+        "id": "12",
+        "title": "Pink Daises",
+        "image": "pink-daises.jpg",
+        "description": "Daisies are not made of just one flower. A Daisy is made up of two types of flowers - disk florets and petal-like white ray florets. The disk florets are at the center and the ray florets are at the periphery but they are arranged to give the impression of being a single flower. This arrangement on Daisies is a type of inflorescence known as a capitulum.",
+        "price": 10.00
     }
 ]

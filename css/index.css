@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     max-width: 1366px;
+    overflow-x: hidden;
 }
 
 .banner {
@@ -38,18 +39,29 @@ h1 {
     height: 240px;
     border-radius: 50%;
     margin: 2%;
+    text-align: center;
+    justify-content:center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 24px;
+    text-decoration: none;
 }
-
+.smooth{
+    padding:75px;
+    text-decoration: none;
+}
 .one-nav:hover {
     cursor: pointer;
+    
 }
 
 .one-nav-first {
     background-color: rgba(72, 209, 204, 0.5);
+    
 }
 
 .one-nav-first:hover {
     background-color: rgba(72, 209, 204, 0.8);
+    
 }
 
 .one-nav-second {
@@ -268,8 +280,8 @@ h1 {
 }
 
 .contact img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
 }
 
@@ -280,7 +292,7 @@ h1 {
     position: fixed;
     top: 0px;
     background-color: rgba(66, 134, 244, 0.9);
-    z-index: 9999;
+    z-index: 1;
 }
 
 .nav-contact {
@@ -353,7 +365,11 @@ display: block;
     height: 200px;
     border-radius: 50%;
 }
-
+.style-cart-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .badge-light {
     color: #212529;
     background-color: rgba(21, 1, 164, 0.13);
@@ -366,4 +382,10 @@ display: block;
 }
 a {
     color:rgb(0, 51, 135);
+}
+.border-bottom-line{
+    border-bottom: 2px solid black;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }

@@ -18,7 +18,8 @@ class ProductList {
             productListDomString += 
                 `<div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                   <div class="card product style-card">
-                    <img class="card-img-top style-card-img" src="img/${product.image}" 
+                    <img class="card-img-top style-card-img data-toggle="modal"
+                        data-target="#cardModalCenter" data-id="${product.id}"" src="img/${product.image}" 
                         alt="${product.title}">
                     <div class="card-body">
                       <h4 class="card-title">${product.title}</h4>

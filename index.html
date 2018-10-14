@@ -31,7 +31,11 @@
             </div>
 
             <nav class="header-nav">
-                <div class="one-nav one-nav-first">
+                <div class="one-nav one-nav-first"><a href="#welcome" class="smooth">Home</a></div>
+                <div class="one-nav one-nav-second"><a href="#products" class="smooth">Shopping</a></div>
+                <div class="one-nav one-nav-third"><a href="#feedback" class="smooth">Feedback</a></div>
+               
+               <!-- <div class="one-nav one-nav-first">
                     <div class="title-of-nav">
                         <p>Roses</p>
                     </div>
@@ -62,12 +66,12 @@
                     <div class="text-of-nav">
                         <p>Flowers are free beauty in nature.</p>
                     </div>
-                </div>
+                </div>-->
             </nav>
         </section>
     </header>
     <main>
-        <section class="welcome-section">
+        <section class="welcome-section" id="welcome">
             <div class="welcome-text">
                 <div class="title-welcome-section">
                     <p>Welcome to our Store!</p>
@@ -82,7 +86,7 @@
             </div>
         </section>
         <section class="flowers-price-section">
-             <h2 id="products">Products</h2>
+             <div id="products"></div>
              <br>
             <div class="row products-container">
             </div>
@@ -127,7 +131,7 @@
                 <input class="flower-card-button" type="button" name="buy" value="Buy me" />
             </article> -->
         </section>
-        <section class="blog-grid">
+        <section class="blog-grid" id="feedback">
             <article class="blog-card">
                 <img src="img/person-ira.jpg">
                 <div class="blog-card-text">
@@ -154,9 +158,12 @@
                 </div>
             </article>
         </section>
-        <section class="flowers-price-section version-two">
-
-            <article class="flower-card">
+       <!-- <section class="flowers-price-section version-two">
+        <div id="products-second-section"></div>
+             <br>
+            <div class="row products-container">
+            </div>
+          <!--  <article class="flower-card">
                 <img src="img/colors-daises.jpg" alt="Colors Daises">
                 <p class="flower-card-name">COLORS DAISIES</p>
                 <input class="flower-card-button" type="button" name="buy" value="Buy me" />
@@ -195,16 +202,16 @@
                 <img src="img/white-lilies.jpg" alt="White Lilies">
                 <p class="flower-card-name">WHITE LILIES</p>
                 <input class="flower-card-button" type="button" name="buy" value="Buy me" />
-            </article>
+            </article> -->
         </section>
     </main>
     <footer>
         <div class="contact">
-            <img src="img/facebook.png" alt="facebook">
-            <img src="img/instagram.png" alt="instagram">
-            <img src="img/google.png" alt="google">
-            <img src="img/youtube.png" alt="youtube">
-            <img src="img/viber.png" alt="viber">
+            <a href="https://facebook.com"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="https://www.google.com"><img src="img/google.png" alt="google"></a>
+            <a href="https://www.youtube.com"><img src="img/youtube.png" alt="youtube"></a>
+            <a href="https://www.viber.com"><img src="img/viber.png" alt="viber"></a>
         </div>
     </footer>
     <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modalLabel" aria-hidden="true">
@@ -326,6 +333,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+    <script async src="js/smooth-scroll.js"></script>
     <script defer src="js/cart.js"></script>
     <script defer src="js/product-list.js"></script>  
     <script async src="js/alert-window.js"></script>
