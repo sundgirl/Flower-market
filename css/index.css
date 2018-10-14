@@ -360,7 +360,7 @@ display: block;
     align-items: center;
     
 }
-.style-card-img{
+.card-img-top{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -384,8 +384,9 @@ a {
     color:rgb(0, 51, 135);
 }
 .border-bottom-line{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
     display:flex;
     justify-content: center;
     text-align: center;
+    padding:10px;
 }

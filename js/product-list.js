@@ -42,7 +42,7 @@ class ProductList {
             const id  = String(button.data('id')); // Extract info from data-* attributes
             const product = this.getProductById(id);
             const modal = $('#cardModalCenter');
-            modal.find('.modal-body .card-img-top .style-card-img')
+            modal.find('.modal-body .card-img-top ')
                 .attr('src', 'img/'+product.image)
                 .attr('alt', product.title);
             modal.find('.modal-body .card-title').text(product.title);

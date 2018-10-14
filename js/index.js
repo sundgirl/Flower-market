@@ -12,15 +12,5 @@ $('#exampleModal').on('show.bs.modal', function (event) {
   modal.find('.modal-body input').val(recipient)
 })
 
-document.querySelector('.flower-card').addEventListener('mouseover', hoverImgOver);
-function hoverImgOver(){
-  document.querySelector('.flower-card').style.backgroundColor="rgba(229, 229, 229, 0.7)";
-  document.querySelector('.flower-card').style.cursor="pointer";
-}
 
-document.querySelector('.flower-card').addEventListener('mouseout', hoverImgOut);
-function hoverImgOut(){
-  document.querySelector('.flower-card').style.backgroundColor="transparent";
-  document.querySelector('.flower-card').style.cursor="default";
-}
 
