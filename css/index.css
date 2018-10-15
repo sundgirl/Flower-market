@@ -211,13 +211,14 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: justify;
 }
 
 .card-img-top {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
+}  
 
 .style-cart-img {
     width: 50px;
@@ -269,6 +270,18 @@ a {
 
 .form-group {
     padding: 10px;
+}
+
+.style-cart-modal{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 9999;
 }
 
 @media (max-width: 500px) {

@@ -43,12 +43,12 @@ class ProductList {
             const product = this.getProductById(id);
             const modal = $('#cardModalCenter');
             modal.find('.modal-body .card-img-top ')
-                .attr('src', 'img/'+product.image)
+                .attr('src', 'img/'+product.image,)
                 .attr('alt', product.title);
             modal.find('.modal-body .card-title').text(product.title);
             modal.find('.modal-body .card-text').text(product.description);
             modal.find('button.buy')
-                .text(`${product.price} - Buy`)
+                .text(`${product.price} $`)
                 .data('id', id);
         });
         $('.card.product button.buy, #cardModalCenter button.buy').click( event => {
