@@ -12,5 +12,9 @@ $('#exampleModal').on('show.bs.modal', function (event) {
   modal.find('.modal-body input').val(recipient)
 })
 
-
+$( "#clickme" ).click(function() {
+  $( "#form" ).toggle( "slow", function() {
+  
+  });
+});
 

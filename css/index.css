@@ -2,7 +2,7 @@
 
 body {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     max-width: 1366px;
     overflow-x: hidden;
 }
@@ -40,28 +40,27 @@ h1 {
     border-radius: 50%;
     margin: 2%;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     font-family: 'MedievalSharp', cursive;
     font-size: 24px;
     text-decoration: none;
 }
-.smooth{
-    padding:75px;
+
+.smooth {
+    padding: 75px;
     text-decoration: none;
 }
+
 .one-nav:hover {
     cursor: pointer;
-    
 }
 
 .one-nav-first {
     background-color: rgba(72, 209, 204, 0.5);
-    
 }
 
 .one-nav-first:hover {
     background-color: rgba(72, 209, 204, 0.8);
-    
 }
 
 .one-nav-second {
@@ -78,28 +77,6 @@ h1 {
 
 .one-nav-third:hover {
     background-color: rgba(0, 255, 127, 0.8);
-}
-
-.one-nav-fours {
-    background-color: rgba(171, 226, 6, 0.5);
-}
-
-.one-nav-fours:hover {
-    background-color: rgba(171, 226, 6, 0.8);
-}
-
-.title-of-nav {
-    display: flex;
-    justify-content: center;
-    font-family: 'MedievalSharp', cursive;
-    font-size: 2em;
-    color: white;
-}
-
-.text-of-nav {
-    text-align: center;
-    font-family: cursive;
-    color: white;
 }
 
 .welcome-section {
@@ -139,95 +116,11 @@ h1 {
 
 .flowers-price-section {
     background-image: url('../img/div-background.jpg');
-    
-}
-
-@media (max-width: 800px) {
-    .flowers-price-section {
-        display: grid;
-        
-    }
-}
-
-@media (max-width: 600px) {
-    .flowers-price-section {
-        
-    }
-    .image-welcome-section {
-        display: none;
-    }
-}
-
-@media (max-width: 400px) {
-    .flowers-price-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-.flower-card {
-    margin: 15px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.flower-card img {
-    width: 70%;
-    border-radius: 50%;
-}
-
-
-.flower-card-name {
-    font-family: 'Medula One', cursive;
-    font-size: 2em;
-}
-
-.flower-card-button {
-    width: 150px;
-    height: 30px;
-
-}
-
-.flower-card-button:hover {
-    border: 2px solid rgb(122, 163, 163);
-    cursor: pointer;
-}
-
-.bgvideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: 50%;
-    height: auto;
-    z-index: -1;
 }
 
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-@media (max-width: 800px) {
-    .blog-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .one-nav-fours {
-        display: none;
-    }
-    .one-nav-third {
-        display: none;
-    }
-}
-@media (max-width:600px) {
-    .one-nav {
-        display: none;
-    }
-   
 }
 
 .blog-card {
@@ -238,7 +131,6 @@ h1 {
     justify-content: space-around;
     align-items: center;
     border: 2px solid rgb(244, 194, 252);
-
 }
 
 .blog-card img {
@@ -247,36 +139,19 @@ h1 {
     border-radius: 50%;
 }
 
-@media (max-width: 800px) {
-    .blog-card img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 500px) {
-    .blog-card img {
-        width: 100px;
-        height: 100px;
-    }
-}
-
 .blog-card-text {
     padding: 10px;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
 }
 
-.version-two {
-    background-color: rgb(222, 252, 194);
-}
-
 .contact {
     width: 100%;
-    background-color: rgba(45, 76, 71, 0.7);
+    background-color: rgba(45, 76, 71, 0.4);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact img {
@@ -303,7 +178,7 @@ h1 {
 .nav-contact>button {
     padding: 0 20px 0 20px;
     font-family: 'MedievalSharp', cursive;
-     background-color: rgb(0, 67, 175);
+    background-color: rgb(0, 67, 175);
 }
 
 .nav-contact button:hover {
@@ -315,78 +190,116 @@ h1 {
     background-color: rgb(4, 54, 135);
 }
 
-.modal-body-css{
+.modal-body-css {
     background-color: rgb(244, 244, 244);
 }
+
 .modal-header-css, .modal-footer-css {
     background-color: rgb(234, 234, 234);
 }
 
-.modal-dialog-css{
+.modal-dialog-css {
     width: 300px;
 }
 
-.price {
-  display: none;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: 'Segoe UI';
-  line-height: 300px;
-  text-align: center;
-  color: #fff;
-  animation: fade .5s linear forwards;
-}
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.flower-card  img:hover .price{
-display: block;
-  background: rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-}
-.style-card{
+.style-card {
     background-color: transparent;
-    border:none;
+    border: none;
     margin: 15px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
 }
-.card-img-top{
+
+.card-img-top {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-.style-cart-img{
+
+.style-cart-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
 .badge-light {
     color: #212529;
     background-color: rgba(21, 1, 164, 0.13);
 }
+
 .badge {
-    border-radius:.50rem;
+    border-radius: .50rem;
 }
-.nav-link{
- padding: 0 1rem;   
+
+.nav-link {
+    padding: 0 1rem;
 }
+
 a {
-    color:rgb(0, 51, 135);
+    color: rgb(0, 51, 135);
 }
-.border-bottom-line{
+
+.border-bottom-line {
     border-bottom: 2px solid grey;
-    display:flex;
+    display: flex;
     justify-content: center;
     text-align: center;
-    padding:10px;
+    padding: 10px;
+}
+
+.form-body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    background-color: rgba(204, 223, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .blog-card img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .image-welcome-section {
+        display: none;
+    }
+    .one-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .one-nav-fours {
+        display: none;
+    }
+    .one-nav-third {
+        display: none;
+    }
+    .blog-card img {
+        width: 150px;
+        height: 150px;
+    }
 }
